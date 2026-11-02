@@ -87,21 +87,6 @@ El `.gitignore` es la **plantilla estándar de Python** que ofrece GitHub al cre
 
 - **Por qué se refinó:** al probar, la pelota siempre rebotaba igual y el juego se volvía repetitivo; no había forma de apuntar.
 
-### Prompt 4 – Estilo del juego original
-> Haz el juego más parecido al Brick Breaker de los celulares de teclas: pelota cuadrada, estilo pixelado, vidas con corazones de pixeles, y que al perder una vida la barra y la pelota parpadeen y la pelota salga desde la barra al tocar la pantalla.
-
-- **Por qué se refinó:** quería que se sintiera como el juego que recordaba; se le pidió a la IA buscar el juego original como referencia.
-
-### Prompt 5 – Pixel art real y código limpio
-> Haz que todo el juego sea pixel art como el original, separa el código en varios archivos para que quede ordenado, evita tener que ejecutar export cada vez y que no salga error al cerrar con Ctrl+C.
-
-- **Por qué se refinó:** solo algunos elementos se veían pixelados, todo el código estaba en un solo archivo difícil de leer, y al probar aparecieron dos molestias (el `export` y el error de `Ctrl+C`).
-
-### Prompt 6 – Ajustes visuales finales
-> Los bloques de colores no me gustan, deberían ser pixeles también y verdes. La letra casi no se distingue, dale más estilo.
-
-- **Por qué se refinó:** la fuente del sistema escalada se veía borrosa e ilegible, y los bloques planos no combinaban con el estilo retro.
-
 ## Validación del resultado
 
 ### Cómo se probó
